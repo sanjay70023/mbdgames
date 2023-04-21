@@ -154,9 +154,9 @@ header .navbar ul li a:hover{
 @media(max-width:768px){
   #menu{
       display: block;
-      /* flex: content; */
-      /* text-align: right; */
-      /* margin-right: 10px; */
+      /* flex: content;
+      text-align: right;
+      margin-right: 10px; */
   }
   header .navbar{
     position: fixed;
@@ -213,7 +213,7 @@ header .navbar ul li a:hover{
 .home::before{
   content: '';
   position: absolute;
-  top: 0;left: 0;
+  top: 0; left: 0;
   height: 100%;
   width: 100%;
 }
@@ -229,7 +229,7 @@ header .navbar ul li a:hover{
 .home img{
   width: 100%;
   /* margin-left: 6rem; */
-  cursor: pointer;
+  /* cursor: pointer; */
   /* padding: 30px; */
 }
 
@@ -473,6 +473,7 @@ header .navbar ul li a:hover{
 section{
   /* min-height: 100vh; */
   padding: 2rem 9%;
+  position: fixed;
 }
 .heading{
   font-size: 3.5rem;
