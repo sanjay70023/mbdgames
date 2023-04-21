@@ -100,9 +100,9 @@ header{
 }
 
 .site-identity img {
-  max-width: 55px;
+  max-width: 45px;
   float: left;
-  margin: 0 10px 0 0;
+  margin: 6px 10px 0 0;
 }
 
 header .logo{
@@ -227,10 +227,10 @@ header .navbar ul li a:hover{
   z-index: 1;
 }
 .home img{
-  width: 90%;
+  width: 100%;
   /* margin-left: 6rem; */
   cursor: pointer;
-  padding: 30px;
+  /* padding: 30px; */
 }
 
 .home .content h3{
@@ -331,6 +331,11 @@ header .navbar ul li a:hover{
     margin-top: 3rem;
     text-align: center;
   }
+  .site-identity img {
+    max-width: 45px;
+    float: left;
+    margin: 6px 10px 0 0;
+  }  
 }
 
 @media (max-width: 575px) {
@@ -344,6 +349,11 @@ header .navbar ul li a:hover{
     margin-top: 3rem;
     text-align: center;
   }
+  .site-identity img {
+    max-width: 45px;
+    float: left;
+    margin: 7px 10px 0 0;
+  }  
 }
 
 @-webkit-keyframes up-down {
@@ -880,6 +890,11 @@ form .button-area{
   section{
     padding: 2rem;
   }
+  .site-identity img {
+    max-width: 35px;
+    float: left;
+    margin: 6px 10px 0 0;
+  }  
 }
 
 /* scroll top starts */
