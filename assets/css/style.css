@@ -24,7 +24,7 @@
 }
 
 body{
-  background: #cfcccc;
+  background: #ffffff;
   font-family: 'Poppins', sans-serif;
 }
 
@@ -208,7 +208,7 @@ header .navbar ul li a:hover{
   /* gap: 1.5rem; */
   min-height: 100vh;
   align-items: center;
-  background: rgb(20, 21, 26);
+  background: rgb(0, 0, 0);
 }
 .home::before{
   content: '';
@@ -473,7 +473,7 @@ header .navbar ul li a:hover{
 section{
   /* min-height: 100vh; */
   padding: 2rem 9%;
-  position: fixed;
+  /* position: fixed; */
 }
 .heading{
   font-size: 3.5rem;
@@ -483,26 +483,15 @@ section{
 }
 /* app1 section starts */
 .app1 {
-  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
-  background: rgb(255, 255, 255, 0.2);
   border-radius: 1.5rem;
   margin: 2% 2% 2% 2%;
-}
-.app1 h2 {
-  /* -webkit-text-stroke-width: 1px; 
-  -webkit-text-stroke-color: black; 
-  background: linear-gradient(90deg, #eee, #040000); */
-  /* background-clip: border-box; */
-  /* -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; */
-}
-.container {
+  background: rgba(0, 0, 0, 0.2);
   display: flex;
-  flex-direction: column;
-  /* justify-content: center; */
-  align-items: center;  
+  flex-direction: row;
+  /* justify-content: space-between; */
+  align-items: center;
+  height: 80vh;
 }
-
 .icon-box {
   width: 160px;
   /* height: 200px; */
@@ -521,10 +510,10 @@ section{
   border-radius: 10%;
 }
 
-/* .description-box {
+.description-box {
   margin-top: 20px;
   text-align: center;
-} */
+}
 
 .store-icons {
   margin-top: 2%;
@@ -532,8 +521,8 @@ section{
   display: flex;
   flex-direction: row;
   width: 100%;
-  margin-bottom: 2%;
-  margin-left: 20%;
+  text-align: center;
+
 } 
 
 .store-icons img {
@@ -543,43 +532,63 @@ section{
 }
 
 @media screen and (max-width: 768px) {
-  .store-icons {
-  margin-top: 10px;
+  .app1{
+  display: flex;
   flex-direction: column;
-  margin-left: 37%;
+  /* justify-content: space-between; */
+  align-items: center;
   }
-  
+  .icon-box {
+  width: 100px;
+  margin-top: 10%;
+  }
+  .store-icons {
+  /* margin-top: 10px; */
+  display: flex;
+  flex-direction: row;
+  /* height: 50%; */
+  width: 100%;
+  align-items: center;
+  /* margin-left: 10%; */
+  }
   .store-icons img {
-  margin-bottom: 10px;
+  /* margin-bottom: 10px; */
   align-self: center;
   }
+
   }
 
 /* app1 media queries starts*/
 @media screen and (max-width: 600px){
-  .app1 .container .icon-box{
-    margin-top: 2rem;
-    width: 30%;
-    height: 40%;
-  }
-  /* .app1 .container .icon-box img{
-    margin: 0 auto;
-    mix-blend-mode:normal;
-  } */
-  .app1 .container{
-    /* padding: .5rem;
-    margin-bottom: 7rem; */
-  }
+    .icon-box {
+    width: 100px;
+    margin-top: 4%;
+    }
+    .store-icons {
+    /* margin-top: 10px; */
+    display: flex;
+    flex-direction: column;
+    /* height: 50%; */
+    width: 70%;
+    align-items: center;
+    margin-left: 17%;
+    }
+    .store-icons img {
+    /* margin-bottom: 10px; */
+    align-self: center;
+    }
 }
 
 /* app2 section starts */
 .app2 {
-  /* box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px; */
-  background: rgb(255, 255, 255);
   border-radius: 1.5rem;
   margin: 2% 2% 2% 2%;
-  /* background: linear-gradient(60deg, rgba(0,0,0,1) 0%, rgba(255,255,255,1) 100%); */
-  /* border: solid 1px #000; */
+  background: rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-between; */
+  align-items: center;
+  height: 80vh;
 }
 .app2 h2 {
   /* -webkit-text-stroke-width: 1px; 
@@ -595,7 +604,13 @@ section{
 
 /* app2 media queries starts*/
 @media screen and (max-width: 600px) {
-  .app2 .container {
+  .app2{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    align-items: center;
+    }  
+  /* .app2 .container {
     padding: 0;
     margin: 0;
   }
@@ -608,15 +623,17 @@ section{
   .app2 .container {
     margin-top: 5px;
     width: 100%;
-  }
+  } */
 }
 
 /* about section starts */
 .about{
-  background: #2c2c2d;
-  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
-  border-radius: 1.5rem 0 0 ;
-  min-height: 100vh;
+  background: #000000d8;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px; 
+  border-radius: 1.5rem 1.5rem 0 0;
+  min-height: 80vh;
+  /* background: rgb(255, 255, 255, 0.2); */
+
 }
 .about h2{
   color: #ffffff;
@@ -667,9 +684,16 @@ section{
 
 /* contact section starts */
 .contact{
-  background: #2c2c2d;
-  min-height: 100vh;
-  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  /* background: #000000; */
+  min-height: 80vh;
+  background: #000000d8;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px; 
+  
+  /* box-shadow: 12px 12px 12px #5e5c5c; */
+  /* box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px; */
+  /* border-radius: 1.5rem; */
+  /* margin: 2% 2% 2% 2%; */
+
   /* border-radius: 1.5rem; */
 }
 .contact h2{
@@ -678,10 +702,10 @@ section{
 }
 .contact .container{
   /* max-width: 1050px; */
-  margin-top: 5%;
+  /* margin-top: 5%; */
   height: 80%;
   width: 100%;
-  background: #ffffffaa;
+  background: #ffffffe8;
   border-radius: 1.5rem;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
 }
@@ -700,7 +724,12 @@ section{
   height: 40rem;
   position: relative;
 }
-
+.contact .container h1{
+  font-size: 3.5rem;
+  color: rgb(0, 0, 0);
+  font-weight: 800;
+  text-align: center;
+}
 form .button-area{
   display: flex;
   float: right;
@@ -885,6 +914,21 @@ form .button-area{
   html{
     font-size: 55%;
   }
+  .store-icons {
+    margin-top: 2%;
+    /* justify-content: space-evenly; */
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    margin-left: 1%;
+  } 
+  
+  .store-icons img {
+    width: 50%;
+    object-fit: cover;
+    aspect-ratio: 6/2;
+  }
   body{
     padding-right: 0;
   }
@@ -917,6 +961,9 @@ form .button-area{
 
 .privacy{
   color: #ffffff;
+  background: #000000d8;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px; 
+  
 }
 .privacy .heading {
   font-size: 3.5rem;
@@ -925,7 +972,7 @@ form .button-area{
   text-align: center;
 }
 .privacy a{
-  color: #2fecef;
+  color: #2011f1;
   cursor: pointer;
   font-style: italic;
 }
