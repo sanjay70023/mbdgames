@@ -154,9 +154,9 @@ header .navbar ul li a:hover{
 @media(max-width:768px){
   #menu{
       display: block;
-      flex: content;
-      text-align: right;
-      margin-right: 10px;
+      /* flex: content; */
+      /* text-align: right; */
+      /* margin-right: 10px; */
   }
   header .navbar{
     position: fixed;
