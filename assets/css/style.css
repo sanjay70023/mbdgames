@@ -483,15 +483,19 @@ section{
 }
 
 .projects {
+  margin-top: 8%;
   text-align: center;
   font-size: 3rem;
   font-weight: 800;
+  /* text-decoration: underline; */
+  /* border-bottom: 1px solid black;
+  padding-bottom: 5px; */
 }
 /* app1 section starts */
 .app1 {
   border-radius: 1.5rem;
   margin: 2% 2% 2% 2%;
-  background: rgba(0, 0, 0, 0.2);
+  background: rgba(0, 0, 0, 0.05);
   display: flex;
   flex-direction: row;
   /* justify-content: space-between; */
@@ -594,7 +598,7 @@ section{
 .app2 {
   border-radius: 1.5rem;
   margin: 2% 2% 2% 2%;
-  background: rgba(0, 0, 0, 0.2);
+  background: rgba(0, 0, 0, 0.1);
   display: flex;
   flex-direction: row;
   /* justify-content: space-between; */
@@ -935,6 +939,9 @@ form .button-area{
     height: 50%;
   }
   .heading{
+    font-size: 2.5rem;
+  }
+  .projects{
     font-size: 2.5rem;
   }
   .store-icons {
