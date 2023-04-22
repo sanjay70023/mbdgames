@@ -481,6 +481,12 @@ section{
   font-weight: 800;
   text-align: center;
 }
+
+.projects {
+  text-align: center;
+  font-size: 3.5rem;
+  font-weight: 800;
+}
 /* app1 section starts */
 .app1 {
   border-radius: 1.5rem;
