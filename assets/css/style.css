@@ -339,6 +339,9 @@ header .navbar ul li a:hover{
     float: left;
     margin: 6px 10px 0 0;
   }  
+  .contact .container .content .image-box{
+    height: 50%;
+  }
 }
 
 @media (max-width: 575px) {
@@ -569,7 +572,6 @@ section{
   /* margin-bottom: 10px; */
   align-self: center;
   }
-
   }
 
 /* app1 media queries starts*/
@@ -749,7 +751,7 @@ section{
   height: 100%;
 }
 .contact .content .image-box{
-  max-width: 100%;
+  width: 50%;
   /* margin-left: 4rem; */
 }
 .contact .content .image-box img{
@@ -761,7 +763,7 @@ section{
   font-size: 3.5rem;
   color: rgb(0, 0, 0);
   font-weight: 800;
-  text-align: center;
+  text-align: left;  
 }
 form .button-area{
   display: flex;
@@ -819,7 +821,7 @@ form .button-area{
   }
   .contact .content .image-box img{
     height: 100%; 
-    /* width: 100%;  */
+    width: 100%; 
   }
   .contact .content form{
     width: 100%;
