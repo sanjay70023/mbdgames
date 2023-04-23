@@ -43,24 +43,6 @@ $(document).ready(function(){
         max: 15,
       });
 
-// <!-- emailjs to mail contact form data -->
- $("#contact-form").submit(function (event) {
-    //event.preventdefault();
-    
-    event.preventDefault();
-    emailjs.init("hVYWqKuxrZGe4_c6B");
-    console.log("form submitted");
-    emailjs.sendForm('service_kgndez5', 'template_7w4zrim', '#contact-form')
-        .then(function (response) {
-            console.log('SUCCESS!', response.status, response.text);
-            document.getElementById("contact-form").reset();
-            alert("Form Submitted Successfully");
-        }, function (error) {
-            console.log('FAILED...', error);
-            alert("Form Submission Failed! Try Again");
-        });
-    
-});
 
 /* ===== SCROLL REVEAL ANIMATION ===== */
 const srtop = ScrollReveal({
@@ -88,16 +70,31 @@ srtop.reveal('.home .telegram',{interval: 600});
 srtop.reveal('.home .instagram',{interval: 600}); 
 
 /* SCROLL app1 */
-srtop.reveal('.app1 .content h3',{delay: 300});
-srtop.reveal('.app1 .content .tag',{delay: 400}); 
-srtop.reveal('.app1 .content p',{delay: 300}); 
-srtop.reveal('.app1 .content .box-container',{delay: 300}); 
+srtop.reveal('.app1 h2',{delay: 300});
+srtop.reveal('.app1 .container .description-box',{delay: 300}); 
+srtop.reveal('.app1 .container .store-icons',{delay: 300}); 
+srtop.reveal('.app1 .icon-box',{delay: 300}); 
 srtop.reveal('.app1 .content .resumebtn',{delay: 300}); 
 
-/* SCROLL about */
-srtop.reveal('.about .box',{interval: 200}); 
+/* SCROLL 2 */
+srtop.reveal('.app2 h2',{delay: 300});
+srtop.reveal('.app2 .container .description-box',{delay: 300}); 
+srtop.reveal('.app2 .container .store-icons',{delay: 300}); 
+srtop.reveal('.app2 .icon-box',{delay: 300}); 
+srtop.reveal('.app2 .content .resumebtn',{delay: 300}); 
 
+/* SCROLL about */
+srtop.reveal('.about h2',{interval: 200}); 
+srtop.reveal('.about p',{interval: 200}); 
 
 /* SCROLL CONTACT */
-srtop.reveal('.contact .container',{delay: 400});
-srtop.reveal('.contact .container .form-group',{delay: 400});
+srtop.reveal('.contact h2',{delay: 400});
+srtop.reveal('.contact .container',{delay: 300});
+
+/* SCROLL privacy */
+srtop.reveal('.privacy .heading',{interval: 200}); 
+srtop.reveal('.privacy div',{interval: 400}); 
+
+/* SCROLL terms */
+srtop.reveal('.terms .heading',{interval: 200}); 
+srtop.reveal('.terms div',{interval: 400}); 
