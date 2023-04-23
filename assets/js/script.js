@@ -100,3 +100,12 @@ srtop.reveal('.privacy div',{interval: 400});
 /* SCROLL terms */
 srtop.reveal('.terms .heading',{interval: 200}); 
 srtop.reveal('.terms div',{interval: 400}); 
+
+
+if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+    // dark mode
+    $("#favicon").attr("href","./assets/images/favicon_white.png");
+} else {
+    // light mode
+    $("#favicon").attr("href","./assets/images/favicon_black.png");
+}
