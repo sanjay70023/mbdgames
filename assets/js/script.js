@@ -69,6 +69,8 @@ srtop.reveal('.home .twitter',{interval: 1000});
 srtop.reveal('.home .telegram',{interval: 600}); 
 srtop.reveal('.home .instagram',{interval: 600}); 
 
+srtop.reveal('.projects',{interval: 200}); 
+
 /* SCROLL app1 */
 srtop.reveal('.app1 h2',{delay: 300});
 srtop.reveal('.app1 .container .description-box',{delay: 300}); 
