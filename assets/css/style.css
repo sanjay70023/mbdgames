@@ -363,6 +363,9 @@ header .navbar ul li a:hover{
   #home {
     height: 50;
   }
+  #home .content h3{
+    font-size: 4rem;
+  }
   #home .image img {
     width: 60%;
   }
@@ -970,6 +973,9 @@ section{
 @media(max-width:450px){
   html{
     font-size: 55%;
+  }
+  #home {
+    height: 50%;
   }
   .app1, .app2{
     height: 50%;
