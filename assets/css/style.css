@@ -324,8 +324,7 @@ header .navbar ul li a:hover{
   #home {
     padding-top: 80px;
     /* height: 50%; */
-    height: 90;
-    max-height: fit-content;
+    height: auto;
   }
   #about{
     height: auto;
@@ -361,6 +360,9 @@ header .navbar ul li a:hover{
 }
 
 @media (max-width: 575px) {
+  #home {
+    height: 50;
+  }
   #home .image img {
     width: 60%;
   }
