@@ -208,7 +208,8 @@ header .navbar ul li a:hover{
   display: flex;
   flex-wrap: wrap;
   /* gap: 1.5rem; */
-  min-height: 100vh;
+  /* min-height: 100vh; */
+  height: 100vh;
   align-items: center;
   background: rgb(0, 0, 0);
 }
@@ -321,6 +322,9 @@ header .navbar ul li a:hover{
 @media (max-width: 991px) {
   #home {
     padding-top: 80px;
+    /* height: 50%; */
+    height: auto;
+
   }
   #home .animated {
     -webkit-animation: none;
@@ -556,6 +560,8 @@ section{
   flex-direction: row;
   /* justify-content: space-between; */
   align-items: center;
+  height: auto;
+
   }
   .icon-box {
   width: 140px;
@@ -639,6 +645,8 @@ section{
     flex-direction: column;
     /* justify-content: space-between; */
     align-items: center;
+    height: auto;
+
     }  
    .app2 .heading{
       font-size: 2.7rem;
@@ -689,6 +697,10 @@ section{
 
 
 @media screen and (max-width: 600px){
+  .about{
+    height: auto;
+
+  }
   .about .box-container .box{
     flex-direction: column;
     width: 100%;
@@ -721,7 +733,7 @@ section{
 /* contact section starts */
 .contact{
   /* background: #000000; */
-  height:  100vh;
+  height:  auto;
   background: #000000d8;
   box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px; 
   
@@ -736,9 +748,9 @@ section{
   color: #ffffff;
   margin-top: 4%;
 }
-.contact .container{
-  /* max-width: 1050px; */
-  /* margin-top: 5%; */
+/* .contact .container{
+  max-width: 1050px;
+  margin-top: 5%; 
   height: 80%;
   width: 100%;
   background: #ffffffe8;
@@ -754,7 +766,6 @@ section{
 }
 .contact .content .image-box{
   width: 50%;
-  /* margin-left: 4rem; */
 }
 .contact .content .image-box img{
   width: 100%;
@@ -766,11 +777,14 @@ section{
   color: rgb(0, 0, 0);
   font-weight: 800;
   text-align: left;  
-}
-form .button-area{
-  display: flex;
-  float: right;
-  flex-direction: row-reverse;
+} */
+.button-area{
+  /* display: flex; */
+  flex: auto;
+  /* align-items: center; */
+  text-align: center;
+  /* float: center; */
+  /* flex-direction: row-reverse; */
 }
 .button-area button{
   color: #fff;
