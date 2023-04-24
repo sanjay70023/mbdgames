@@ -778,6 +778,7 @@ section{
 .contact .container p {
   font-size: large;
   font-weight: 800;
+  text-transform: lowercase;
 }
 /* .contact .content .image-box{
   width: 50%;
