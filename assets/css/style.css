@@ -324,8 +324,16 @@ header .navbar ul li a:hover{
     padding-top: 80px;
     /* height: 50%; */
     height: auto;
-
   }
+  #about{
+    height: auto;
+  }
+  #app1{
+    height: auto;
+  }
+  #app2{
+    height: auto;
+  }  
   #home .animated {
     -webkit-animation: none;
     animation: none;
@@ -697,10 +705,6 @@ section{
 
 
 @media screen and (max-width: 600px){
-  .about{
-    height: auto;
-
-  }
   .about .box-container .box{
     flex-direction: column;
     width: 100%;
