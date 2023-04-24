@@ -323,13 +323,14 @@ header .navbar ul li a:hover{
     font-size: 4rem;
   }
   .home .content {
-    margin-bottom: 50%;
+    margin-bottom: 40%;
   }
   #home .image img {
     width: 60%;
   }
   #home .image {
     text-align: center;
+    margin-top: 10%;
   }
   .socials{
     margin-top: 3rem;
