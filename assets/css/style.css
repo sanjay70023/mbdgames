@@ -684,9 +684,9 @@ section{
 
 /* about section starts */
 .about{
-  background: #000000d8;
-  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px; 
-  border-radius: 1.5rem 1.5rem 0 0;
+  background: #434242d8;
+  /* box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;  */
+  /* border-radius: 1.5rem 1.5rem 0 0; */
   height: 80vh;
   display: flex;
   flex-direction: column;
@@ -696,8 +696,8 @@ section{
 }
 .about h2{
   color: #ffffff;
-  -webkit-text-stroke-width: 1px; 
-  -webkit-text-stroke-color: rgb(0, 0, 0); 
+  /* -webkit-text-stroke-width: 1px; 
+  -webkit-text-stroke-color: rgb(0, 0, 0);  */
   margin-top: 4%;
 
 }
@@ -708,6 +708,7 @@ section{
   font-family: 'Nunito', sans-serif;
   font-weight: 600;
   margin-top: .5rem;
+  padding: 2.5rem 2rem;
 }
 
 
@@ -744,9 +745,9 @@ section{
 /* contact section starts */
 .contact{
   /* background: #000000; */
-  height:  auto;
-  background: #000000d8;
-  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px; 
+  height:  80vh;
+  background: #ffffff;
+  /* box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;  */
   
   /* box-shadow: 12px 12px 12px #5e5c5c; */
   /* box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px; */
@@ -756,10 +757,23 @@ section{
   /* border-radius: 1.5rem; */
 }
 .contact h2{
-  color: #ffffff;
+  color: #000000;
   margin-top: 4%;
 }
-.contact .container{
+.contact .quote {
+  color: #000000;
+  font-size: 2rem;
+  text-align: center;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 600;
+  margin-top: 10%;
+  text-transform: none;
+}
+.contact .button-area {
+  padding: 2.5rem 2rem;
+  text-align: center;
+}
+/* .contact .container{
   max-width: 1050px;
   margin-top: 5%; 
   height: 80%;
@@ -767,19 +781,21 @@ section{
   background: #ffffffe8;
   border-radius: 1.5rem;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
-}
-.contact .container .content{
+} */
+/* .contact .container .content{
   display: flex;
   align-items: center;
   justify-content: space-evenly;
   padding: 2.5rem 2rem;
   height: 100%;
-}
-.contact .container p {
+} */
+/* .contact .container .content p {
   font-size: large;
-  font-weight: 800;
-  text-transform: lowercase;
-}
+  font-weight: 600;
+  text-transform: none;
+  flex: auto;
+  text-align: center;
+} */
 /* .contact .content .image-box{
   width: 50%;
 }
@@ -788,12 +804,12 @@ section{
   height: 90%;
   position: relative;
 } */
-.contact .container h1{
+/* .contact .container h1{
   font-size: 3.5rem;
   color: rgb(0, 0, 0);
   font-weight: 800;
   text-align: left;  
-}
+} */
 
 .button-area button{
   color: #fff;
