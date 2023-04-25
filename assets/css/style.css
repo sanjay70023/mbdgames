@@ -580,7 +580,7 @@ section{
   }
   .icon-box {
   width: 140px;
-  margin-top: 10%;
+  /* margin-top: 10%; */
   }
   .store-icons {
   /* margin-top: 10px; */
@@ -607,7 +607,7 @@ section{
     }
     .icon-box {
     width: 100px;
-    margin-top: 20%;
+    /* margin-top: 20%; */
     }
     .heading{
       font-size: 3rem;
