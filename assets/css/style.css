@@ -602,7 +602,6 @@ section{
   .app1, .app2{
     display: flex;
     flex-direction: column;
-    /* justify-content: space-between; */
     align-items: center;
     padding: 10px;
     }
@@ -616,7 +615,7 @@ section{
     .store-icons {
       margin-top: 2%;
       display: flex;
-      flex-direction: column;
+      /* flex-direction: column; */
       width: 100%;
       text-align: center;
       margin-left: 1%;
@@ -1001,7 +1000,7 @@ section{
     margin-top: 2%;
     /* justify-content: space-evenly; */
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     width: 100%;
     text-align: center;
     margin-left: 1%;
